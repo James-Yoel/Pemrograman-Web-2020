@@ -1,0 +1,23 @@
+1. SQL Injection: Terjadi saat web memproses apa yang user masukkan untuk  mencreate SQL statement.
+                  Biasanya terjadi jika tidak memvalidasi inputan dan langsung di kirim dan di eksekusi yang nantinya akan memberikan penyerang akses ke konten database.
+   XSS(Cross Site Scripting): menggunakan web untuk mengantarkan kode/skrip berbhaya ke browser dari korban.
+                              Korban tersebut tanpa sadar akan mendownload kode/skrip tersebut dan browser akan menjalankan kode tersebut.
+                              Hal tersebut bisa terjaid karena web menampilkan user input tanpa di validasi terlebih dahulu, dimana cookie akan dikirim ke server penyerang.
+
+2. SQL Injection: 
+   - Meminimalisasi privileges dari user yang akses ke dalam database.
+   - Menggunakan kombinasi password ynag kuat untuk SA dan Administrator.
+   - Menolak karakter aneh/karakter tidak biasa.
+   - Mensanitasi dan memvalidasi input.
+   XSS: 
+   - Validasi dan pengkodean setiap input dari user.
+   - Menvalidasi juga output dari user input seperti command, posting, dll.
+   - Menggunakan framework pada bahasa pemrograman server site.
+   - Dari sisi user, menggunakan anti-malware, internet security, dan broser update terbaru.
+
+3. MD5(Message-Direct Algorithm 5) adalah sebuah algoritma fungsi hash dari kriptografi yang di gunakan dengan hash value 128-bit.
+   Biasanya digunakan untuk validasi login pada sistem.
+
+4. DES: 13 karakter, dengan 2 karakter pertama merupakan karakter acak.
+   Domained Cached Credentials: 16 bytes, untuk mencache password-password domain windows.
+   MySQL5: 20 bytes, menggunakan algorithm SHA-1.

@@ -1,0 +1,13 @@
+1. Single quotes hanya akan menampilkan karakter aslinya.
+   Sedangkan Double quotes akan menampilkan isi dari variabel tersebut.
+   I'm "not" a girl
+   I'm a womanThat is Mario\'s cat
+   Her name is Maria
+   ('Maria'nya dalam Bold).
+
+2. [a] = $i%3 == 0
+   [b] = $i%5 == 0
+   [c] = $desc
+   [d] = 'ping'
+   [e] = 'pong'
+   [f] = 'dum'

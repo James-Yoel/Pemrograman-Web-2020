@@ -1,0 +1,9 @@
+1. MySQLi hanya mendukung database MySQL, sedangkan PDO mendukung banyak database.
+   PDO membutuhkan parameter bernama  sedangkan MySQLi tidak membutuhkannya.
+   Prepared Statements dibutuhkan oleh PDO sedangkan MySQLi tidak.
+
+2. Pada kegiatan 2.1, program menggunakan MySQLi untuk mengakses database. Juga dalam melakukan prosedural looping, kegiatan 2.1 menggunakan fungsi while dan mengakses array dengan nama array.
+   Sedangkan kegiatan 2.2, program menggunakan PDO untuk mengakses database. Juga dalam melakukan prosedural looping, kegiatan 2.2 menggunakan fungsi foreach dan mengases array dengan index array tersebut.
+
+3. Jika mySQL maka yang lebih baik adalah mySQLi karena mySQLi dibuat khusus untuk mengakses database mySQL dan proseduralnya lebih mudah dibandingkan MySQL extension.
+   Selain itu, peforma MySQLi lebih cepat dibandingkan dengan PDO meskipun MySQL extension masih lebih cepat. 

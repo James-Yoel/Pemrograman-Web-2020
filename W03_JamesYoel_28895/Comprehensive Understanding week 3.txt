@@ -1,0 +1,15 @@
+1. Predefined variable adalah variabel yang tidak harus kita namakan karena php sudah menyediakan variabel beserta fungsinya, dan kebanyakan merupakan superglobal variabel.
+   Contoh : 
+   $_GET = HTTP mengambil data yang dikirim oleh user dan menampilkannya ke user melalui URL.
+   $_POST = HTTP mengambil data yang dikirim oleh user dan disembunyikan oleh user.
+   $_COOKIE = HTTP mengambil isi cookie.
+   $_FILES = HTTP mengambil data file yang di upload user.
+
+2. Perbedaan terbesar $_GET dan $_POST adalah $_GET menampilkan data yang dikirim oleh user pada URL, sedangkan $_POST tidak.
+   Keuntungan :
+   $_GET = Menampilkan data yang dikirim oleh user yang biasanya digunakan untuk fungsi searching agar user mengetahui mekanisme kerjanya.
+   $_POST = Tidak menampilkan data yang dikirim oleh user yang biasanya digunakan untuk password.
+            Serta tidka memiliki batas ukuran data yang bisa dikirim, dan bisa menerima data ASCII dan binary.
+
+   
+ 

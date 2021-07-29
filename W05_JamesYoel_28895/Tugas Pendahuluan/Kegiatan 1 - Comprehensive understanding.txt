@@ -1,0 +1,83 @@
+1. - Modularity: Pembuatan program dengan membuat modul-modul berupa object.
+   - Flexibility: Sistem program dapat dimodifikasi tanpa melibatkan banyak modul, hanya object yang terlibat saja.
+   - Extensibility: Class object dapat dikembangkan dengan menambahkan attributes dan behaviors baru.
+   - Expandability: Sistem program dapat dikembangkan sampai skala yang paling kompleks.
+   - Reusability: Class object dipakai lagi pada lintas aplikasi program.
+   - Mudah di maintain jika ada perubahan meskipun dalam skala yang besar.
+   - Di support banyak library object, sehingga mempercepat penyelesaian program dan juga project berikutnya.
+   - Biaya rendah untuk development.
+   - Software kualitas tinggi.
+
+2a. Class merupakan sebuah wadah yang menyimpan property dan method, dan object yang biasanya dihasilkan biasanya berdasarkan isi dari class.
+    cth: <?php
+         class nama_class{
+         }
+         ?>
+2b. Object adalah output dari class, dan object dapat menampilkan atau mengelola isi class.
+    cth: <?php
+         class mobil{
+         }
+         $mobil = new mobil();
+         ?>
+2c. Inheritance merupakan class turunan dari class yang lainnya. 
+    Inheritance di buat dengan membuat class bari dnegan tujuan di hubungkan dengan class yang lain yang di inginkan, dengan tujuan untuk mendpatkan informasi atau data dari class yang di hubungkan tersebut.
+    Maka terbentuklah sub class yang merupakan class turunan, sedangkan suoer class adalah class yang di hubungkan oleh sub class tersebut.
+    cth: <?php
+         class manusia{
+            public $nama_saya;
+            function beriNama($saya){
+               $this->nama_saya=$saya;
+            }
+         }
+         class teman extends manusia{
+            public $nama_teman;
+            function beriNamaTeman($teman){
+               $this->nama_teman=$teman;
+            }
+         }
+         $halo = new teman;
+         $halo->beriNama("Andika");
+         $halo->beriNamaTeman("Andiku");
+         echo "Nama Saya :".$halo->nama_saya."<br/>";
+         echo "Nama Teman Saya :".$halo->nama_teman."<br/>";
+         ?>
+2d. Constructor adalah method yang di jalankan pertama kali pada saat sebuah class di jalankan secara otomatis.
+    cth: <?php
+         class manusia{
+            var $nama;
+            var $warna;
+            function __construct(){
+               echo "ini adalah isi method contruct <br/>";
+            }
+            function tampilkan_nama(){
+               return "Nama saya Andika <br/>";
+            }
+         }
+         $manusia = new manusia();
+         echo $manusia->tampilkan_nama();
+         ?>
+2e. Destructor adalah method yang terkahir di jalankan setelah semua method di classnya selesai di jalankan secara otomatis.
+    cth: <?php
+         class manusia{
+            var $nama;
+            var $warna;
+            function __construct(){
+               echo "ini adalah isi method contruct <br/>";
+            }
+	    function __destruct(){
+               echo "ini adalah isi method destruct <br/>";
+            }
+            function tampilkan_nama(){
+               return "Nama saya Andika <br/>";
+            }
+         }
+         $manusia = new manusia();
+         echo $manusia->tampilkan_nama();
+         ?>
+
+3. MVC merupakan software design pattern yang digunanakan dalam pengembangan sebuah aplikasi maupun situs web. 
+   Design pattern ini sekarang banyak dimanfaatkan pada PHP Framework populer.
+   MVC memisahkan program dalam tiga bagian terpisah yang saling terhubungi sesuai dengan namanya, yaitu Model, View, dan Controller.
+   - Model berfungsi untuk mengatur data, fungsi dan aturan dari aplikasi.
+   - View berfungsi untuk mengatur tampilan atau output yang tampil di layar, tidak hanya berupa data, namun juga termasuk komponen lain.
+   - Controller mengatur menerima input dan menjalankan beberapa perintah untuk dijalankan di model.

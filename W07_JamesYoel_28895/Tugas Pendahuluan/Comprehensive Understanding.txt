@@ -1,0 +1,26 @@
+James Yoel - 28895
+
+1. Terdapat dua kategori framework PHP:
+   - CMS (Content Management System):
+     Sebuah Framework PHP dimana framework ini langsung menyediakan segala sesuatu yang dibutuhkan oleh admin (funsgi dasar, desain, dll).
+     Dengan hal tersebut, pengguna bisa langsung tinggal menambahkan data pada page website dan langsung jadi.
+     Tentunya bisa website tersebut masih bisa diubah secara desain, dan dapat menambahkan fungsi dalam bentuk plugin.
+     Terdapat banyak jenis CMS, ada yang khusus membuat post, forum, e-commerce, sampai wikipedia.     
+     Contoh: Wordpress, Joomla, Drupal, Mambo, Magento, Dolphin, dan lain-lain.
+    
+   - MVC (Model View Controller):
+     Sebuah framework yang sudah mempersiapkan kerangka kerja yang sudah memiliki berbagai library yang bisa digunakan oleh user, agar user tidak harus membuat fungsi dari nol.
+     Karena setiap framework memiliki library masing-masing, maka cara untuk menggunakan setiap fungsi pada framework berbeda-beda.
+     Contoh: CakePHP, Codeigniter, Laravel, Yii, Zend, dan lain-lain.
+
+2. Berikut adalah 5 dari sekian banyak kategori pada CMS:
+   - CMS Blogs: CMS khusus untuk pembuatan blog yang biasanya digunakan sebagai diary virtual seseorang, atau berbagi informasi yang memiliki fitur seperti berkomentar, sharing, dan lain-lain.
+                Contoh: sBlog, TruBlog, Textpattern, dan lain-lain.
+   - CMS e-commerce: CMS khusus untuk pembuatan website e-commerce untuk kegiatan bisnis dan perdagagangan melalui internet. Biasanya segala fitur sudah disiapkan, hanya tinggal menambahkan barang saja, dan edit personal.
+                     Contoh: Magento, dan lain-lain.
+   - CMS Forums: CMS Khusus untuk pembuatan forum yang digunakan untuk berdiskusi sesuai dengan tema forum tersebut.
+                 Contoh: miniBB, MyBB, phpBB, dan lain-lain.
+   - CMS e-learning: CMS khusus untuk membuat website e-learning untuk memfasilitasi proses belajar mengajar melalui internet. Segala funsgi dasar seperti upload file, assignment dengan tengat waktu, dan lain-lain sudah tersedia.
+                     Contoh: Moodle, dan lain-lain.
+   - CMS Wiki: CMS  khusus untuk website wiki yang membangun naskah secara kolaboratif (siapa saja bisa) hingga menjadi suatu enslikopedia sesuai dengan tema wiki tersebut.
+               Conroh: phpWiki, DokuWiki, MediaWiki, dan lain-lain.
